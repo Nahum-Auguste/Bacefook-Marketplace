@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "facebookSans";
+    src: url("/style-assets/fonts/facebook-sans/FacebookSansRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "facebookSans";
+    font-weight: 700;
+    src: url("/style-assets/fonts/facebook-sans/FacebookSansBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "facebookSans";
+    font-weight: 900;
+    src: url("/style-assets/fonts/facebook-sans/FacebookSansHeavy.ttf") format("truetype");
+}
+
+:root {
+    --main-bg-color: rgb(88, 90, 93);
+    --main-color: rgb(234, 211, 3);
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: var(--main-bg-color);
+}
+
+.site-header{
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: 'facebookSans';
+    box-shadow: 0px 0px 10px 0px black;
+}
+.site-header > *{
+    font-weight: 700;
+    margin: 0px;
+}
+#site-title{
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 15px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+#site-title:link {
+    color: var(--main-color);
+}
+#site-title:visited {
+    color: var(--main-color);
+}
+
+
+

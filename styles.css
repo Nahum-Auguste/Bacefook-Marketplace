@@ -1,6 +1,6 @@
 @font-face {
     font-family: "facebookSans";
-    src: url("/style-assets/fonts/facebook-sans/FacebookSansRegular.ttf") format("truetype");
+    src: url("./style-assets/fonts/facebook-sans/FacebookSansRegular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
@@ -8,13 +8,13 @@
 @font-face {
     font-family: "facebookSans";
     font-weight: 700;
-    src: url("/style-assets/fonts/facebook-sans/FacebookSansBold.ttf") format("truetype");
+    src: url("./style-assets/fonts/facebook-sans/FacebookSansBold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "facebookSans";
     font-weight: 900;
-    src: url("/style-assets/fonts/facebook-sans/FacebookSansHeavy.ttf") format("truetype");
+    src: url("./style-assets/fonts/facebook-sans/FacebookSansHeavy.ttf") format("truetype");
 }
 
 :root {

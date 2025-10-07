@@ -52,9 +52,22 @@ body {
     color: var(--main-color);
 }
 
+.search-section ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.search-section li {
+    margin-bottom: 0px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
 .search-section > * {
     margin-left: 15px;
-    margin-top: 20px;
 }
 
 input#searchbar {
@@ -63,22 +76,51 @@ input#searchbar {
     border-style: none;
     border-radius: 20px;
     padding-left: 35px;
-    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     background-image: url("./style-assets/images/search-icon.png");
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 5px;
     width: 97%;
-    height: 30px;
     display: block;
     opacity: .9;
 }
 input#searchbar:focus {
     outline: none;
+}
+
+.button {
+    height: 48px;
+    border-radius: 22px;
+    border-style: none;
+    background-color: rgb(192, 192, 192);
+    padding: 13px 15px 10px 15px;
+    font-family: "facebookSans";
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    
+    opacity: 1;
+}
+.button:hover {
+    background-color: rgb(176, 176, 176);
+}
+.button:active {
+    background-size: 26px;
+}
+
+#profile-button {
+    width: 50px;
+    background-image: url("/style-assets/images/profile-icon.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 51% 50%;
 }
 
 
